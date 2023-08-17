@@ -1,0 +1,23 @@
+{
+  "name": "biproject",
+  "version": "1.0.0",
+  "description": "new project of test about link of PowerBI in my plataform.",
+  "main": "index.js",
+  "engines": {
+    "node": "14.21.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "JMD",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1"
+  }
+}

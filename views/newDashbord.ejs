@@ -1,0 +1,20 @@
+<%- include('./partials/header.ejs') -%>
+<%- include ('./partials/navbar.ejs') -%>
+
+    <div class="container">
+        <hr/>
+        <div class="card mt-6">
+            <div class="card-header">
+                <h2>Cadastro de Dashbord</h2>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="/admin/dashbord/register"></form>
+                    <input class="form-control" name="email" type="title" placeholder="Título"></br>
+                    <input class="form-control" name="email" type="text" placeholder="Link"></br>
+
+                    <button class="btn btn-primary">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
